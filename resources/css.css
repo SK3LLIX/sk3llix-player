@@ -1,0 +1,16 @@
+*{
+  display: inline-flex;
+}
+body.fullscreen{
+  width:100vw;
+  height:100vh;
+}
+#game{
+  width: 100vw;
+  height: 85vh;
+  position: absolute;
+  background-image:url(https://sk3llix.github.io/sk3llix-engine/resources/placeholder.png);
+}
+.button:hover{
+  
+}
