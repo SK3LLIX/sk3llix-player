@@ -5,7 +5,7 @@
     <iframe id="iframe" src=""></iframe>
     <script>
       const queryString = window.location.search;
-      parseURLParams(queryString)
+      parseURLParams(queryString);
       function parseURLParams(url) {
         var queryStart = url.indexOf("?") + 1,
             queryEnd   = url.indexOf("#") + 1 || url.length + 1,
